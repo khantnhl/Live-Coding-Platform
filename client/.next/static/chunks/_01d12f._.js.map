@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/nular/Documents/Live-Coding-Platform/client/src/app/page.tsx"],"sourcesContent":["\"use client\"\n\nimport { useRouter } from \"next/navigation\";\n\n\nexport default function Home() {\n  const router = useRouter();\n\n  function handleLogin() {\n    router.push('/login')\n  }\n\n  function handleSignUp() {\n    router.push('/signup')\n  }\n  \n  return (\n    <div>\n      <button onClick={handleLogin}>Login</button>\n      <button onClick={handleSignUp}>Sign Up</button>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;;;AAFA;;AAKe,SAAS;;IACtB,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IAEvB,SAAS;QACP,OAAO,IAAI,CAAC;IACd;IAEA,SAAS;QACP,OAAO,IAAI,CAAC;IACd;IAEA,qBACE,6LAAC;;0BACC,6LAAC;gBAAO,SAAS;0BAAa;;;;;;0BAC9B,6LAAC;gBAAO,SAAS;0BAAc;;;;;;;;;;;;AAGrC;GAjBwB;;QACP,qIAAA,CAAA,YAAS;;;KADF"}},
+    {"offset": {"line": 61, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":["file:///Users/nular/Documents/Live-Coding-Platform/client/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}},
+    {"offset": {"line": 72, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport type { NextRequest } from \"next/server\";\n\nexport function middleware(request: NextRequest) {\n    return NextResponse.next(); // Let backend handle authentication\n}\n\nexport const config = {\n    matcher: [\"/dashboard/:path*\", \"/rooms/:path*\"], // Protected routes\n};\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAGO,SAAS,WAAW,OAAoB;IAC3C,OAAO,qLAAA,CAAA,eAAY,CAAC,IAAI,IAAI,oCAAoC;AACpE;AAEO,MAAM,SAAS;IAClB,SAAS;QAAC;QAAqB;KAAgB;AACnD"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
